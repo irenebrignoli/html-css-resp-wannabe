@@ -136,12 +136,24 @@ img {
     }
 } */
 
+@media screen and (max-width: 768px){
+
+    .container {
+        max-width: 768px;
+    }
+
+
+}
+
+
+
+
 
 
 @media screen and (max-width: 480px) {
 
     .container {
-        max-width: 480px;
+        width: 100%;
     }
 
     .row {
@@ -162,4 +174,5 @@ img {
     .col-left{
         margin-bottom: 70px;
     }
+
 }
