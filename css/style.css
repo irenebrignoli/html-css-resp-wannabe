@@ -129,13 +129,37 @@ img {
  ************************************************/
 
 
+ /* @media screen and (max-width: 768px) {
+
+    .container {
+        max-width: 768px;
+    }
+} */
+
+
+
 @media screen and (max-width: 480px) {
 
     .container {
         max-width: 480px;
     }
 
-    h1{
-        color:red;
+    .row {
+        display: block;
+    }
+
+    .lessons .col,
+    .steps .col{
+        width: 100%;
+        margin-bottom: 70px;
+    }
+    
+    .col.col-left,
+    .col.col-right{
+        width: 100%;
+    }
+
+    .col-left{
+        margin-bottom: 70px;
     }
 }
